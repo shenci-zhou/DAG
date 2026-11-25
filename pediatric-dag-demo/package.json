@@ -1,0 +1,13 @@
+{
+  "name": "clingraph-oral-qa-dag",
+  "private": true,
+  "type": "module",
+  "version": "4.1.1",
+  "description": "ClinGraph v4.1 oral medicine Question / Choice / Outcome knowledge DAG demo",
+  "scripts": {
+    "start": "node standalone/server.mjs",
+    "dev": "node --watch standalone/server.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {"node": ">=18"}
+}
